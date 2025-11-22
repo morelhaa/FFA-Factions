@@ -1,0 +1,31 @@
+# CustomFFA Plugin Configuration
+# Título del scoreboard
+scoreboard_title: "§l§aFFA"
+
+# Nombre del mundo/arena de FFA
+arena: "world_ffa"
+
+npc_name: "§aFFA"
+ffa_join_command: "ffajoin"
+
+
+# Items del kit (se dan al entrar a la arena)
+items:
+  - "diamond_sword"
+  - "golden_apple"
+  - "golden_apple"
+  - "golden_apple"
+  - "cooked_beef"
+  - "cooked_beef"
+
+# Armadura del kit
+helmet: "diamond_helmet"
+chestplate: "diamond_chestplate"
+leggings: "diamond_leggings"
+boots: "diamond_boots"
+
+# NPCs guardados (no editar manualmente)
+npcs: []
+
+# Estadísticas de jugadores (no editar manualmente)
+player_stats: {}

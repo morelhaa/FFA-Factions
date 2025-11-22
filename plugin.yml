@@ -1,0 +1,28 @@
+name: CustomFFA
+version: 1.1.1
+api: 5.0.0
+main: FFA\Main
+author: morelhaa
+
+permissions:
+  ffa.cmd.join:
+    description: "Permite unirse al FFA"
+    default: true
+  ffa.cmd.quit:
+    description: "Permite salir del FFA"
+    default: true
+  ffa.cmd.help:
+    description: "Muestra la ayuda del FFA"
+    default: true
+  ffa.cmd.about:
+    description: "Información del plugin"
+    default: true
+  ffa.admin:
+    description: "Acceso a comandos administrativos del FFA"
+    default: op
+  ffa.*:
+    description: "Da acceso a todos los comandos del FFA"
+    default: op
+  ffa.cmd.setarena:
+    description: "Permiso para usar modificar las arenas"
+    default: op
