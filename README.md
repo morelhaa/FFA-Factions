@@ -1,110 +1,31 @@
 CustomFFA
 
-CustomFFA es un plugin de PvP FFA (Free-For-All) para PocketMine-MP 5, diseñado para servidores que buscan una experiencia de combate fluida, competitiva y sin complicaciones.
-Incluye arenas configurables, estadísticas avanzadas, NPCs interactivos, kits personalizables y un sistema de persistencia robusto.
+Plugin PvP FFA para PocketMine-MP 5. Incluye arenas FFA, estadísticas (kills/deaths/KD), scoreboard en vivo, NPCs interactivos, kit personalizable, guardado de inventarios y datos persistentes. Los jugadores pelean sin perder ítems y todo se restaura al salir.
 
-🚀 Características principales
-🏟️ Arenas FFA
+Características
 
-Soporte para múltiples arenas.
+Arenas FFA configurables
 
-Respawn instantáneo y listo para pelear.
+Kills/Deaths/KD con guardado automático
 
-Combate fluido sin penalizaciones por muerte.
+Scoreboard en tiempo real
 
-📊 Estadísticas en tiempo real
+NPCs interactivos
 
-Registro de:
+Kits personalizables
 
-Kills
+Inventario seguro (sin pérdida de ítems)
 
-Deaths
+Instalación
 
-K/D Ratio
+Colocar el .phar en /plugins/.
 
-Guardado automático de datos por jugador.
+Reiniciar el servidor.
 
-Scoreboard dinámico actualizado en vivo.
+Comandos
 
-🧍 NPCs Interactivos
+/ffa — menú principal
 
-NPCs para seleccionar kits, ver estadísticas u otras funciones.
-
-Totalmente personalizables.
-
-🎒 Sistema de inventarios seguro
-
-Los jugadores no pierden sus items al morir.
-
-Inventario restaurado automáticamente al salir de la arena.
-
-Kit personalizable por servidor o por jugador.
-
-🛠️ Comandos administradores
-
-Reiniciar estadísticas.
-
-Administrar arenas.
-
-Gestionar NPCs.
-
-Configuración general del plugin.
-
-💾 Persistencia de datos
-
-Guarda kills, deaths y configuraciones de forma automática.
-
-Funciona incluso tras reinicios del servidor.
-
-📥 Instalación
-
-Descarga el archivo .phar del plugin.
-
-Colócalo en la carpeta:
-
-/plugins/
-
-
-Reinicia o inicia tu servidor PocketMine-MP 5.
-
-Configura arenas, NPCs y ajustes mediante los archivos de configuración o comandos.
-
-📚 Comandos
-Comando	Descripción
-/ffa	Menú principal o acceso rápido a arenas.
-/ffa setarena <name>	Crear o modificar una arena.
-/ffa stats <player>	Ver estadísticas.
-/ffa npc add <tipo>	Crear un NPC interactivo.
-/ffa resetstats <player>	Reiniciar estadísticas de un jugador.
-
-(Los comandos pueden variar según la implementación final.)
-
-⚙️ Configuración
-
-Todos los ajustes del plugin se encuentran en:
-
-/plugin_data/CustomFFA/config.yml
-
-
-Permite configurar:
-
-Arenas
-
-NPCs
-
-Kits
-
-Scoreboard
-
-Opciones de PvP
-
-Persistencia de stats
-
-🤝 Contribuciones
-
-Si deseas contribuir, reportar bugs o solicitar nuevas funciones, ¡eres bienvenido!
-Puedes abrir un issue o un pull request en el repositorio oficial.
-
-📜 Licencia
-
+Admin: setarena, stats, npc, resetstats
 Proyecto de uso libre para servidores y desarrolladores. Consulta la licencia incluida en la distribución del plugin.
+
