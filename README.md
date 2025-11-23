@@ -55,3 +55,56 @@ Configuración general del plugin.
 Guarda kills, deaths y configuraciones de forma automática.
 
 Funciona incluso tras reinicios del servidor.
+
+📥 Instalación
+
+Descarga el archivo .phar del plugin.
+
+Colócalo en la carpeta:
+
+/plugins/
+
+
+Reinicia o inicia tu servidor PocketMine-MP 5.
+
+Configura arenas, NPCs y ajustes mediante los archivos de configuración o comandos.
+
+📚 Comandos
+Comando	Descripción
+/ffa	Menú principal o acceso rápido a arenas.
+/ffa setarena <name>	Crear o modificar una arena.
+/ffa stats <player>	Ver estadísticas.
+/ffa npc add <tipo>	Crear un NPC interactivo.
+/ffa resetstats <player>	Reiniciar estadísticas de un jugador.
+
+(Los comandos pueden variar según la implementación final.)
+
+⚙️ Configuración
+
+Todos los ajustes del plugin se encuentran en:
+
+/plugin_data/CustomFFA/config.yml
+
+
+Permite configurar:
+
+Arenas
+
+NPCs
+
+Kits
+
+Scoreboard
+
+Opciones de PvP
+
+Persistencia de stats
+
+🤝 Contribuciones
+
+Si deseas contribuir, reportar bugs o solicitar nuevas funciones, ¡eres bienvenido!
+Puedes abrir un issue o un pull request en el repositorio oficial.
+
+📜 Licencia
+
+Proyecto de uso libre para servidores y desarrolladores. Consulta la licencia incluida en la distribución del plugin.
